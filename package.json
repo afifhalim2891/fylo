@@ -1,0 +1,15 @@
+{
+  "name": "tailwindcss-starter",
+  "version": "1.0.0",
+  "description": "Tailwind Starter | Boilerplate",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwind -i ./input.css -o ./css/style.css",
+    "watch": "tailwind -i ./input.css -o ./css/style.css --watch"
+  },
+  "author": "Afif Bin Abd Halim",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
